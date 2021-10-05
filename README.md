@@ -27,3 +27,9 @@ pip install django-filter
 ```
 python manage.py runserver
 ```
+### Migrações
+
+```
+python manage.py makemigrations
+python manage.py migrate
+```
