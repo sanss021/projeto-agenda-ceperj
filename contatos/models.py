@@ -3,6 +3,7 @@ from django.db.models.deletion import DO_NOTHING
 from django.utils import timezone
 
 
+
 class Categoria (models.Model):
     nome = models.CharField(max_length=150)
 
